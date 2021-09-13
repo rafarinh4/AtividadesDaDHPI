@@ -44,3 +44,13 @@ function matrizInvertido(array) {
 
 matrizInvertido([1, 2, 3, 4])
 
+// Simulação Array.join()
+// Neste exercício, você criará uma função chamada join que recebe um array e simula o comportamento do método Array.join().
+// Importante: Não poderá utilizar o método Array.join() original.
+// Por exemplo:
+// join(["o","l","á"]) deve retornar a string "olá".
+let letras = ["o","l","a"];
+function juntarTudo() {
+    return letras[0]+letras[1]+letras[2];
+}
+console.log(juntarTudo());
