@@ -19,10 +19,10 @@ function FizzBuzz(a,b) {
             console.log("FizzBuzz");
         }
         else if (i % a === 0){
-            console.log("Buzz");
+            console.log("Fizz");
         }
-        else if (i % b === 0){
-            console.log("Buzz");
+        else {
+            console.log("Buzz")
         }
     }
 }
